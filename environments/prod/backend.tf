@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "infra-sandbox-francislouie-tfstate"
     prefix = "env/prod"
   }
 }
